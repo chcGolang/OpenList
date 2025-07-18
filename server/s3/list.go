@@ -5,10 +5,10 @@ package s3
 import (
 	"path"
 	"strings"
-	"time"
+	// "time"
 
 	"github.com/itsHenry35/gofakes3"
-	log "github.com/sirupsen/logrus"
+	// log "github.com/sirupsen/logrus"
 )
 
 func (b *s3Backend) entryListR(bucket, fdPath, name string, addPrefix bool, response *gofakes3.ObjectList) error {
